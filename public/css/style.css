@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   position: relative;
+   background-color: rgba(0, 0, 0, 0.829);
+}
+
+/* .coursescardparent{
+
+    @media (max-width:1200px) {
+        display : flex !important ;         
+        overflow-x: hidden !important;
+    }
+} */
+
+@media (max-width:1200px) {
+    .cardparent {
+        padding: 25px; 
+        display : flex !important ;         
+        overflow-x: hidden !important;
+    }
+    
+}
+
+
+.card-img-top{
+    background-image: url("../images/th.jfif");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    
+}
+
+
+.python_content{
+    margin-top: 75px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+.card-title{
+    color: aliceblue;
+
+}
+.courcessection{
+    background-image: url("../images/secondary_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    
+}
+.overlaycourses{
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 800px;
+}
+.searchforcources{
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 25px;
+    color: aliceblue;
+    padding: 10px;
+    padding-left: 50px;
+    width: 300px;
+    margin-left: auto;
+    @media (max-width:1200px) {
+        width : 425px ;
+        margin : auto ; 
+    }
+}
+
+.othercoursesdiv{
+    display: flex;
+    padding-top: 80px ;
+    @media (max-width:1200px) {
+       display:block ; 
+       padding-top: 30px ;
+       
+    }   
+}
+.othercoursestitle{
+    @media (max-width:1200px) {
+        margin-right : 250px;
+        padding-bottom : 15px ;
+    }
+}
+
+.coursepic{
+    background-image: url("../images/main_background.jpg");
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.resposivetablediv{
+    @media (max-width:1200px) {
+        display : none ; 
+    }
+}
+
+.responsiveothercoursesdiv{
+    display: none;
+    @media (max-width:1200px) {
+        display : block ; 
+        margin : auto ; 
+        padding-top :  25px ; 
+    }
+}
+
+.courcesimg{
+    background-image: url("../images/Untitled.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.containertech{
+    display: flex;
+    @media (max-width:1200px) {
+        display : block ; 
+       
+    }
+}
+.imgtech{
+    display: block;
+    width: 600px; 
+    height: 300px; 
+    border-radius: 5px;
+    padding-top: 15px;
+    @media (max-width:1200px) {
+        width : 100% ; 
+    }
+}
+
+.lessondivparent{
+    padding-left: 200px ; 
+    margin-top: 90px;
+    @media (max-width:1200px) {
+    padding-left: 25px ; 
+    margin-top: 30px;
+        
+    }
+}
+.assesmentaccordiondiv{
+    display: flex;
+    @media (max-width:1200px) {
+        display : block ; 
+        }
+}
+.accordiondiv{
+    width: 70%;
+    background-color: black;  
+    color: aliceblue; 
+    padding: 15px;
+    @media (max-width:1200px) {
+        width: 100%;
+
+        }
+}
+.assesmentdiv{
+    margin-left: 50px;
+    background-color: black; 
+    width: 30%; 
+    color: aliceblue; 
+    padding: 15px; 
+    font-size: small;
+    @media (max-width:1200px) {
+        width: 100%;
+        margin-left: 0px;
+        padding-top : 15px ; 
+        }
+}
